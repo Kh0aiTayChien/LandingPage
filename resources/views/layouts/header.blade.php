@@ -53,7 +53,7 @@
             </div>
         </div>
     </nav>
-    <div class="collapse " id="navbarToggleExternalContent">
+    <div class="collapse position-relative" id="navbarToggleExternalContent">
         <div class="bg-light p-4 text-menu-mobile " style="height: 90vh">
             <span> Trang chủ</span>
             <hr class="hr">
@@ -61,15 +61,17 @@
             <hr class="hr">
             <span> Liên hệ</span>
             <hr class="hr">
-            <div class="position-absolute bottom-0 start-0">
-                  <span class="top-100 translate-middle">
-                <img src="{{asset('images/phone.svg')}}" alt="phone">
-            </span>
+            <span class="position-absolute bottom-0 start-0 p-4 w-100 ">
+                <img src="{{asset('images/phone.svg')}}" alt="phone"> Tài khoản
                 <br>
-                <span class=" top-100 ">
-                <img src="{{asset('images/hotline.svg')}}" alt="hotline">
+                <img src="{{asset('images/hotline.svg')}}" alt="hotline"> Hot line
+                <hr>
+                Vietnamese | English
             </span>
-            </div>
+            <br>
+            <span class=" ">
+
+            </span>
         </div>
     </div>
 </div>
