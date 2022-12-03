@@ -1,0 +1,45 @@
+.container {
+    position: relative;
+
+}
+
+.btn-default {
+    position: absolute;
+
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    height: 50px;
+
+}
+.pos1 {
+    left: 95px;
+    top: 450px;
+}
+.pos2 {
+    left: 295px;
+    top: 450px;
+}
+.dark-blue {
+    background-color: #164E63;
+}
+.text-dark-blue{
+    color: #164E63;
+}
+.modal-title{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 51px;
+}
+.modal fade{
+    width: 930px;
+    height: 631px;
+    left: 0px;
+    top: 0px;
+}
+.note {
+    height: 100px;
+}
